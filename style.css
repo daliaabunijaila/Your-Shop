@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 12vh
+}
+
+nav .icon{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .icon image{
+  padding-left: 0.5rem;
+}
+
+nav .icon h4{
+    font-family:"Lalezar", cursive;
+}
+
+nav .bars-menu{
+    display: none;
+}
+
+nav .nav-contents{
+    display: flex;
+}
+
+nav .nav-contents .nav-link{
+    padding:0 1.5rem;
+    text-decoration: none;
+    color: rgb(29, 20, 20);
+}
+nav .nav-contents .nav-link:hover{
+    color: rgb(98, 134, 134);
+}
+
+/* main section */
+
+
+
+.main{
+  background-image: url("images/shop.jpg");
+  background-size: cover;
+}
+
+.main .items{
+    max-width: 1366px;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.items .item{
+    display: flex;
+    flex-direction: column;
+}
+
+.items .item h3{
+    color: rgb(111, 8, 207);
+     font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.items .item h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: rgb(111, 8, 207);
+    
+}
+
+.items .item .btn{
+    width: 9rem;
+    margin-top: 3rem;
+    border-radius: 4rem;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(127, 17, 230);
+}
+
+.items .item .btn:hover{
+    background-color: rgb(191, 35, 175);
+    cursor: pointer;
+}
+
+.items .item .btn a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.4rem;
+}
+
+/* Features Section */
+
+.features {
+    padding: 2rem 0;
+    background-color: aliceblue;
+}
+
+.features .features-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features .features-section h3{
+    color: rgb(128, 62, 189);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.features .features-section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .features-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: white;
+    padding: 2rem;
+    max-width: 16rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+}
+
+.features .features-section .qualities .quality i{
+    font-size: 2rem;
+    color: darkviolet;
+    margin-bottom: 1rem;
+}
+
+.features .features-section .qualities .quality h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.features .features-section .qualities .quality p{
+   font-size: 1.2rem;
+   text-align: center;
+   color: dimgray;
+}
+
+.features .features-section .qualities .quality:hover{
+    border: 2px solid rgb(128, 62, 189);
+}
+
+/*  new clothes  */
+
+.newest-clothes {
+    padding-top: 5rem;  
+}
+
+.newest-clothes .clothes-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.newest-clothes .clothes-section h3{
+    color: blueviolet;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.newest-clothes .clothes-section .clothes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.newest-clothes .clothes-section .chlothe{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clothe img{
+    text-align: center;
+    display: flex;
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 1rem;
+    border: 5px black double;
+}
+
+.clothe img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+input[type=button]{
+    width: 15rem;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.75 1.5rem;
+}
+
+input[type=button]:hover{
+    cursor: pointer;
+    color: darkmagenta;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgb(243, 238, 238);
+    height: 20vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section .socials{
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.footer-section .socials i{
+    color: rgb(8, 15, 15);
+    display: inline;
+}
+
+.footer-section .socials i:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+/* Responsive Design*/
+
+@media(max-width: 1300px) {
+    *{
+        font-size: 90%;
+    }
+
+    nav .nav-contents{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 1100px)  {
+    * {
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .items{
+        align-items: center;
+        padding: 2rem 0rem;
+        width: 50%;
+    }
+
+    .main .btn{
+        align-self: center;
+        font-size: 90% !important;
+    }
+
+    .main .item{
+        margin-top: 2rem;
+    }
+
+    .features-section .qualities {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .features .features-section{
+        align-items: center;
+        max-width: 1000px !important;
+    }
+
+    .features .features-section .qualities .quality{
+        margin: 0 1rem;
+    }
+
+    .clothes-section h3{
+        align-self: center;
+    }
+
+    .newest-clothes .clothes-section .clothes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 1000px) {
+    .items .item h1{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    nav {
+        max-width: 800px;
+        
+    }
+}
+
+
+@media (max-width: 990px){
+    .features .features-section .qualities .quality{
+    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
+    }
+}
+
+@media (max-width: 960px){
+    .features .features-section .qualities .quality{
+        padding: 0;
+        margin: 0.9rem;
+        padding: 0.9rem;
+        }
+}
+
+@media (max-width: 940px){
+    .features .features-section .qualities .quality{
+        padding: 0;
+        margin: 0.7rem;
+        padding: 0.7rem;
+        }
+}
+
+@media (max-width: 920px){
+    .features .features-section .qualities .quality{
+        padding: 0;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        }
+}
+
+
+@media (max-width: 890px){
+    .features .features-section .qualities .quality{
+        margin: 0.3rem;
+        padding: 0.3rem;
+        }
+}
+
+
+@media (max-width: 880px){
+    .features .features-section .qualities{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       justify-content: flex-start;
+        }
+}
+
+
+@media (max-width: 765px) {
+    .newest-clothes .clothes-section .clothes {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    nav .bars-menu {
+        display: block;
+        font-size: 3rem;
+    }
+
+    nav .icon .logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    nav .nav-contents{
+        position: absolute;
+        left: 0;
+        top: 10vh;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: blueviolet;
+        padding: 2rem 0;
+    }
+    
+    nav .nav-contents .nav-content {
+        margin: 1rem 0;
+    }
+
+    nav .nav-contents .nav-content a {
+        color: aliceblue;
+    }
+
+    nav .nav-contents .active {
+        display: flex;
+    }
+}
+

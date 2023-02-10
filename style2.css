@@ -1,0 +1,76 @@
+ .images-section .images .image{
+    padding: 1rem;
+    max-width: 1366px;
+    margin: 1 2 1 2rem;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.images-section .images h3{
+    color: blueviolet;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+
+.images-section .images .image img{
+    border: 5px black double;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    display: inline-block;
+    margin: auto;
+   margin: 2rem;
+   padding: 2rem; 
+}
+
+
+.images-section .images .image img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: rgb(243, 238, 238);
+    height: 13vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section .socials{
+    padding: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.footer-section .socials i{
+    color: rgb(8, 15, 15);
+    display: inli;
+}
+
+.footer-section .socials i:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
